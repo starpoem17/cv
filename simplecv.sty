@@ -6,6 +6,7 @@
 \usepackage{titlesec}                       % Title formatting
 \usepackage{subfiles}                       % File importing
 \usepackage{multicol}                       % Multiple columns
+\usepackage{tabularx}                      % Wrapping two-column entries
 \usepackage[usenames,dvipsnames]{xcolor}    % Coloring
 \usepackage{enumitem}                       % List customization
 \usepackage{lastpage}                       % Page numbering
@@ -125,8 +126,8 @@
     \vspace{-\smallskipamount} \item[]\small{\textit{#4}}}
 
 \newcommand{\entrybig}[5][]{\item[#1]
-    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-    #2 & #3 \\ {\small#4} & {\small #5} \\ \end{tabular*}}
+    \begin{tabularx}{0.97\textwidth}{@{}>{\raggedright\arraybackslash}X r@{}}
+    \parbox[t]{\linewidth}{#2} & #3 \\ {\small#4} & {\small #5} \\ \end{tabularx}}
 
 % Fill year
 \newcommand{\fillyear}[1]{\phantom{#1}}
