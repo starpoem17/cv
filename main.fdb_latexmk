@@ -1,15 +1,14 @@
 # Fdb version 4
-["biber main"] 1776082565.88988 "main.bcf" "main.bbl" "main" 1776091415.71922 0
-  "main.bcf" 1776091415.69238 107531 0c026df1648e753145b95988d9863d83 "pdflatex"
+["biber main"] 1776082565.88988 "main.bcf" "main.bbl" "main" 1776091784.85859 0
+  "main.bcf" 1776091784.8293 107531 0c026df1648e753145b95988d9863d83 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1776091415.30725 "/home/hwajoong/projects/cv/main.tex" "main.pdf" "main" 1776091415.71939 0
+["pdflatex"] 1776091784.44309 "main.tex" "main.pdf" "main" 1776091784.85875 0
   "/etc/texmf/web2c/texmf.cnf" 1776058765.78494 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/hwajoong/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk" 1776058871.25734 11524 2a4c40bb8035f28c5a5ee7d30e750915 ""
   "/home/hwajoong/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1095.600pk" 1776058871.36731 12644 744673d0b9dbb713b1d2c5f0ed43c401 ""
-  "/home/hwajoong/projects/cv/main.tex" 1776061846.32643 1317 77705689314da35fd6c5f143f0bf3a01 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1136768653 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm1095.tfm" 1136768653 1536 02c06700a42be0f5a28664c7273f82e7 ""
@@ -125,10 +124,10 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1776058768.7529 128028 f533b797fba58d231669ea19e894e23e ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1776058771 6800788 ebd56047962895cc891bee4047b00162 ""
-  "main.aux" 1776091415.68951 1275 c2ee0eecbfd8fb485c9479a1a5eaaa3b "pdflatex"
+  "main.aux" 1776091784.82607 1275 c2ee0eecbfd8fb485c9479a1a5eaaa3b "pdflatex"
   "main.bbl" 1776082566.19477 466 ee04f40f768daeed26442158e95aba61 "biber main"
-  "main.out" 1776091415.68951 753 c585b488b402ebaa5dbc34619125abdf "pdflatex"
-  "main.run.xml" 1776091415.69267 2398 a2262f7f8e82257c36bf818f8e1363fb "pdflatex"
+  "main.out" 1776091784.82607 753 c585b488b402ebaa5dbc34619125abdf "pdflatex"
+  "main.run.xml" 1776091784.82961 2398 a2262f7f8e82257c36bf818f8e1363fb "pdflatex"
   "main.tex" 1776061846.32643 1317 77705689314da35fd6c5f143f0bf3a01 ""
   "sections/awards.tex" 1776079689.69771 157 f6790b18b6a746296f7273f1ee5c2bab ""
   "sections/courses.tex" 1776080629.83041 163 af293310b90322eedb278deaa577b07a ""
@@ -137,7 +136,7 @@
   "sections/interest.tex" 1776060168.36102 121 d3218cb87f52abc87c8dbbb82fb805f9 ""
   "sections/projects.tex" 1776091359.18036 1361 ccac016a363c0e103a92092993f3299a ""
   "sections/skills.tex" 1776081012.4574 203 127706fdbd68f96145ea5c39350d0ce2 ""
-  "simplecv.sty" 1776082526.5545 4560 38da6e3b4ff8b9a36a0c5a51e50d207f ""
+  "simplecv.sty" 1776091778.14504 4597 244e793bd62ec6d02eb51b50f84e5400 ""
   (generated)
   "main.aux"
   "main.bcf"
