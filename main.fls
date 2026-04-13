@@ -265,12 +265,12 @@ INPUT ./sections/experience.tex
 INPUT sections/experience.tex
 INPUT ./sections/experience.tex
 INPUT sections/experience.tex
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm
 INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
 INPUT ./sections/skills.tex
 INPUT sections/skills.tex
 INPUT ./sections/skills.tex
 INPUT sections/skills.tex
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm
 INPUT ./sections/courses.tex
 INPUT sections/courses.tex
 INPUT ./sections/courses.tex
