@@ -146,6 +146,14 @@
     {\small #4} & {\small #5} \\
     \end{tabularx}}
 
+\newcommand{\entrybigdesc}[6][]{%
+    \item[#1]
+    \begin{tabularx}{0.97\textwidth}{@{}>{\raggedright\arraybackslash}X r@{}}
+    \parbox[t]{\linewidth}{#2} & #3 \\
+    {\small #4} & {\small #5} \\
+    \multicolumn{2}{@{}l@{}}{\small #6}
+    \end{tabularx}}
+
 % Fill year
 \newcommand{\fillyear}[1]{\phantom{#1}}
 

@@ -1,15 +1,15 @@
 # Fdb version 4
-["biber main"] 1776082565.88988 "main.bcf" "main.bbl" "main" 1776094334.0621 0
-  "main.bcf" 1776094334.03556 107531 0c026df1648e753145b95988d9863d83 "pdflatex"
+["biber main"] 1776082565.88988 "main.bcf" "main.bbl" "main" 1776099923.73022 0
+  "main.bcf" 1776099923.70363 107531 0c026df1648e753145b95988d9863d83 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1776094333.65189 "/home/hwajoong/projects/cv/main.tex" "main.pdf" "main" 1776094334.06226 0
+["pdflatex"] 1776099923.34243 "/home/hwajoong/projects/cv/main.tex" "main.pdf" "main" 1776099923.73037 0
   "/etc/texmf/web2c/texmf.cnf" 1776058765.78494 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/hwajoong/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk" 1776058871.25734 11524 2a4c40bb8035f28c5a5ee7d30e750915 ""
   "/home/hwajoong/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1095.600pk" 1776058871.36731 12644 744673d0b9dbb713b1d2c5f0ed43c401 ""
-  "/home/hwajoong/projects/cv/main.tex" 1776061846.32643 1317 77705689314da35fd6c5f143f0bf3a01 ""
+  "/home/hwajoong/projects/cv/main.tex" 1776099922.67689 1349 9deb3e538056db014a7a52b1ef8bae84 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1136768653 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm1095.tfm" 1136768653 1536 02c06700a42be0f5a28664c7273f82e7 ""
@@ -125,19 +125,20 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1776058768.7529 128028 f533b797fba58d231669ea19e894e23e ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1776058771 6800788 ebd56047962895cc891bee4047b00162 ""
-  "main.aux" 1776094334.03262 1275 c2ee0eecbfd8fb485c9479a1a5eaaa3b "pdflatex"
+  "main.aux" 1776099923.70043 1401 a665c13161a305a57f37c768f7669d84 "pdflatex"
   "main.bbl" 1776082566.19477 466 ee04f40f768daeed26442158e95aba61 "biber main"
-  "main.out" 1776094334.03362 753 c585b488b402ebaa5dbc34619125abdf "pdflatex"
-  "main.run.xml" 1776094334.03586 2398 a2262f7f8e82257c36bf818f8e1363fb "pdflatex"
-  "main.tex" 1776061846.32643 1317 77705689314da35fd6c5f143f0bf3a01 ""
-  "sections/awards.tex" 1776079689.69771 157 f6790b18b6a746296f7273f1ee5c2bab ""
+  "main.out" 1776099923.70143 929 3fdf8bedf71ef831405371bcfdcf00b4 "pdflatex"
+  "main.run.xml" 1776099923.70393 2398 a2262f7f8e82257c36bf818f8e1363fb "pdflatex"
+  "main.tex" 1776099922.67689 1349 9deb3e538056db014a7a52b1ef8bae84 ""
+  "sections/awards.tex" 1776099299.03028 169 5ed585af9e7d0b143c40b8cdbeb64751 ""
   "sections/courses.tex" 1776080629.83041 163 af293310b90322eedb278deaa577b07a ""
-  "sections/education.tex" 1776094293.56404 299 8dc5338345c7df88dc404f7dcb2a78cb ""
+  "sections/education.tex" 1776099077.0124 304 c7a64ecfab027ba6ec4408f9e71351cc ""
   "sections/experience.tex" 1776094333.35263 271 cd4e6465d3d077d312231618ab99785f ""
+  "sections/extracurricular.tex" 1776099602.73614 410 a1272e799cfed0778b533a03a487e8df ""
   "sections/interest.tex" 1776060168.36102 121 d3218cb87f52abc87c8dbbb82fb805f9 ""
-  "sections/projects.tex" 1776091359.18036 1361 ccac016a363c0e103a92092993f3299a ""
-  "sections/skills.tex" 1776081012.4574 203 127706fdbd68f96145ea5c39350d0ce2 ""
-  "simplecv.sty" 1776093970.24765 5241 605680a62c8e3174de38ecccaa8665e0 ""
+  "sections/projects.tex" 1776098727.9871 1580 8cb65ee0f7debdb953194dcc43b4891e ""
+  "sections/skills.tex" 1776095576.13617 203 98ebb599207ae0bdcaa0e17e8b2de81a ""
+  "simplecv.sty" 1776094718.38138 5500 131a85fa5262e27e0ffc58be18c5bf6a ""
   (generated)
   "main.aux"
   "main.bcf"
