@@ -61,17 +61,19 @@
 % Dummy environment
 \newenvironment*{dummyenv}{}{}
 
+% Header spacing
+\newlength{\cvHeaderNameGap}
+\newlength{\cvHeaderLineGap}
+\setlength{\cvHeaderNameGap}{0.35\baselineskip}
+\setlength{\cvHeaderLineGap}{0.15\baselineskip}
+
 % Inline heading
-\newcommand{\headinginline}[2]{
-    \begin{minipage}[t]{0.60\textwidth}
-    \vspace*{\fill}
-    \Huge \textcolor{color-title}{#1}
-    \end{minipage}
-    \begin{minipage}[t]{0.35\textwidth}
-    \begin{flushright}
-    #2
-    \end{flushright}
-    \end{minipage}
+\newcommand{\headinginline}[2]{%
+    \begin{center}
+    {\Huge \textcolor{color-title}{#1}\par}
+    \vspace{\cvHeaderNameGap}
+    {\small #2\par}
+    \end{center}
 }
 
 % Photo heading

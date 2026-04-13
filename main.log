@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.4.13)  14 APR 2026 02:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.4.13)  14 APR 2026 02:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -641,11 +641,13 @@ Package csquotes Info: Enabling multilingual quotes.
 Package csquotes Info: Redefining alias 'english' -> 'english/american'.
 )
 Package csquotes Info: Allocating character ".
-\cvSectionTopGap=\skip90
-\cvSectionGap=\skip91
-\cvEntryGap=\skip92
-\cvInnerListGap=\skip93
-\cvBulletGap=\skip94
+\cvHeaderNameGap=\skip90
+\cvHeaderLineGap=\skip91
+\cvSectionTopGap=\skip92
+\cvSectionGap=\skip93
+\cvEntryGap=\skip94
+\cvInnerListGap=\skip95
+\cvBulletGap=\skip96
 )
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
@@ -727,17 +729,17 @@ Package logreq Info: Writing requests to 'main.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
  20005 strings out of 476182
- 351287 string characters out of 5795595
- 1949975 words of memory out of 5000000
+ 351249 string characters out of 5795595
+ 1948975 words of memory out of 5000000
  41723 multiletter control sequences out of 15000+600000
  563001 words of font info for 52 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  85i,11n,85p,1156b,1751s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </home/hwajoong/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk> </home/hwajoong/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1095.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on main.pdf (2 pages, 73058 bytes).
+Output written on main.pdf (2 pages, 72910 bytes).
 PDF statistics:
- 88 PDF objects out of 1000 (max. 8388607)
- 73 compressed objects within 1 object stream
+ 86 PDF objects out of 1000 (max. 8388607)
+ 71 compressed objects within 1 object stream
  11 named destinations out of 1000 (max. 500000)
  65 words of extra memory for PDF output out of 10000 (max. 10000000)
 
