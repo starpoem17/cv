@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.4.13)  13 APR 2026 21:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.4.13)  13 APR 2026 23:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -705,7 +705,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 Package csquotes Info: Making character " active on input line 20.
- (./sections/education.tex (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd)) (./sections/interest.tex) (./sections/projects.tex) (./sections/experience.tex) [1
+ (./sections/education.tex) (./sections/interest.tex) (./sections/projects.tex) (./sections/experience.tex) [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./sections/awards.tex) (./sections/skills.tex) (./sections/courses.tex) [2] 
 enddocument/afterlastpage: lastpage setting LastPage.
@@ -721,18 +721,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 20007 strings out of 476182
- 351255 string characters out of 5795595
+ 19986 strings out of 476182
+ 350890 string characters out of 5795595
  1942975 words of memory out of 5000000
- 41726 multiletter control sequences out of 15000+600000
+ 41708 multiletter control sequences out of 15000+600000
  563001 words of font info for 52 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  85i,11n,85p,1156b,1751s stack positions out of 10000i,1000n,20000p,200000b,200000s
- </home/hwajoong/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk> </home/hwajoong/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1095.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on main.pdf (2 pages, 79523 bytes).
+ </home/hwajoong/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk> </home/hwajoong/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1095.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on main.pdf (2 pages, 71123 bytes).
 PDF statistics:
- 89 PDF objects out of 1000 (max. 8388607)
- 72 compressed objects within 1 object stream
+ 84 PDF objects out of 1000 (max. 8388607)
+ 69 compressed objects within 1 object stream
  10 named destinations out of 1000 (max. 500000)
  57 words of extra memory for PDF output out of 10000 (max. 10000000)
 
