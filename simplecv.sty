@@ -98,36 +98,53 @@
     #2 \end{multicols}
 }
 
+% Vertical rhythm
+\newlength{\cvSectionTopGap}
+\newlength{\cvSectionGap}
+\newlength{\cvEntryGap}
+\newlength{\cvInnerListGap}
+\newlength{\cvBulletGap}
+\setlength{\cvSectionTopGap}{0.60\baselineskip}
+\setlength{\cvSectionGap}{0.25\baselineskip}
+\setlength{\cvEntryGap}{0.20\baselineskip}
+\setlength{\cvInnerListGap}{-0.35\baselineskip}
+\setlength{\cvBulletGap}{0pt}
+
 % Section titles
 \titleformat{\section}{
-    \scshape\raggedright\Large\color{color-title}}{}{0em}{}[\color{color-title}\titlerule
-    \vspace{-\smallskipamount}]
+    \scshape\raggedright\Large\color{color-title}}{}{0em}{}[\color{color-title}\titlerule]
+\titlespacing*{\section}{0pt}{\cvSectionTopGap}{\cvSectionGap}
 
 % Footer
 \fancyfoot[R]{Page \thepage \hspace{1pt} of \pageref{LastPage}}
 
 % Lists
-\newcommand{\outerlist}[1]{
-    \begin{itemize}[leftmargin=*] #1 \end{itemize}}
-\newcommand{\denseouterlist}[1]{
-    \begin{itemize}[leftmargin=*,itemsep=0pt] #1 \end{itemize}}
-\newcommand{\innerlist}[1]{
-    \begin{itemize}[topsep=0pt,itemsep=0pt,parsep=0pt,partopsep=0pt] #1 \end{itemize}}
-\newcommand{\orderedouterlist}[1]{
-    \begin{enumerate}[leftmargin=*] #1 \end{enumerate}}
+\newcommand{\cventrylistspacing}{\vspace{\cvInnerListGap}}
+\newcommand{\outerlist}[1]{%
+    \begin{itemize}[leftmargin=*,topsep=0pt,itemsep=\cvEntryGap,parsep=0pt,partopsep=0pt] #1 \end{itemize}}
+\newcommand{\denseouterlist}[1]{%
+    \begin{itemize}[leftmargin=*,topsep=0pt,itemsep=\cvEntryGap,parsep=0pt,partopsep=0pt] #1 \end{itemize}}
+\newcommand{\innerlist}[1]{%
+    \begin{itemize}[topsep=0pt,itemsep=\cvBulletGap,parsep=0pt,partopsep=0pt,before=\cventrylistspacing] #1 \end{itemize}}
+\newcommand{\orderedouterlist}[1]{%
+    \begin{enumerate}[leftmargin=*,topsep=0pt,itemsep=\cvEntryGap,parsep=0pt,partopsep=0pt] #1 \end{enumerate}}
 
 % List items
 \newcommand{\entry}[1]{\item\small{#1}}
 \newcommand{\entryextra}[1]{\textcolor{color-detail}{\entry{#1}}}
 \newcommand{\entrylabeled}[2][]{\item[#1]\small{#2}}
 
-\newcommand{\entrymid}[4][]{
-    \item[#1] \small{#2} \hfill \small{#3}
-    \vspace{-\smallskipamount} \item[]\small{\textit{#4}}}
+\newcommand{\entrymid}[4][]{%
+    \item[#1]
+    {\small #2} \hfill {\small #3}\par
+    {\small\textit{#4}}}
 
-\newcommand{\entrybig}[5][]{\item[#1]
+\newcommand{\entrybig}[5][]{%
+    \item[#1]
     \begin{tabularx}{0.97\textwidth}{@{}>{\raggedright\arraybackslash}X r@{}}
-    \parbox[t]{\linewidth}{#2} & #3 \\ {\small#4} & {\small #5} \\ \end{tabularx}\vspace{-2pt}}
+    \parbox[t]{\linewidth}{#2} & #3 \\
+    {\small #4} & {\small #5} \\
+    \end{tabularx}}
 
 % Fill year
 \newcommand{\fillyear}[1]{\phantom{#1}}
