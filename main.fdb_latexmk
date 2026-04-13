@@ -1,11 +1,11 @@
 # Fdb version 4
-["biber main"] 1776082565.88988 "main.bcf" "main.bbl" "main" 1776092340.11798 0
-  "main.bcf" 1776092340.08913 107531 0c026df1648e753145b95988d9863d83 "pdflatex"
+["biber main"] 1776082565.88988 "main.bcf" "main.bbl" "main" 1776092969.70036 0
+  "main.bcf" 1776092969.67106 107531 0c026df1648e753145b95988d9863d83 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1776092339.70554 "main.tex" "main.pdf" "main" 1776092340.11814 0
+["pdflatex"] 1776092969.28152 "main.tex" "main.pdf" "main" 1776092969.70052 0
   "/etc/texmf/web2c/texmf.cnf" 1776058765.78494 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/hwajoong/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk" 1776058871.25734 11524 2a4c40bb8035f28c5a5ee7d30e750915 ""
   "/home/hwajoong/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1095.600pk" 1776058871.36731 12644 744673d0b9dbb713b1d2c5f0ed43c401 ""
@@ -124,19 +124,19 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1776058768.7529 128028 f533b797fba58d231669ea19e894e23e ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1776058771 6800788 ebd56047962895cc891bee4047b00162 ""
-  "main.aux" 1776092340.08565 1275 c2ee0eecbfd8fb485c9479a1a5eaaa3b "pdflatex"
+  "main.aux" 1776092969.6677 1275 c2ee0eecbfd8fb485c9479a1a5eaaa3b "pdflatex"
   "main.bbl" 1776082566.19477 466 ee04f40f768daeed26442158e95aba61 "biber main"
-  "main.out" 1776092340.08665 753 c585b488b402ebaa5dbc34619125abdf "pdflatex"
-  "main.run.xml" 1776092340.08944 2398 a2262f7f8e82257c36bf818f8e1363fb "pdflatex"
+  "main.out" 1776092969.6687 753 c585b488b402ebaa5dbc34619125abdf "pdflatex"
+  "main.run.xml" 1776092969.67137 2398 a2262f7f8e82257c36bf818f8e1363fb "pdflatex"
   "main.tex" 1776061846.32643 1317 77705689314da35fd6c5f143f0bf3a01 ""
   "sections/awards.tex" 1776079689.69771 157 f6790b18b6a746296f7273f1ee5c2bab ""
   "sections/courses.tex" 1776080629.83041 163 af293310b90322eedb278deaa577b07a ""
-  "sections/education.tex" 1776091414.96777 252 228698d431deab05710aa49f596ce455 ""
+  "sections/education.tex" 1776092689.16646 252 228698d431deab05710aa49f596ce455 ""
   "sections/experience.tex" 1776078968.91756 272 28bfb2f5b1dc0c39bedc7d0499b88413 ""
   "sections/interest.tex" 1776060168.36102 121 d3218cb87f52abc87c8dbbb82fb805f9 ""
   "sections/projects.tex" 1776091359.18036 1361 ccac016a363c0e103a92092993f3299a ""
   "sections/skills.tex" 1776081012.4574 203 127706fdbd68f96145ea5c39350d0ce2 ""
-  "simplecv.sty" 1776092331.40261 4631 0c41d88cc462ade909cc8f9780ada03d ""
+  "simplecv.sty" 1776092958.75365 4610 c24752eac571c9e15231a10dd5e63742 ""
   (generated)
   "main.aux"
   "main.bcf"

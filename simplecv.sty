@@ -112,7 +112,7 @@
 \newcommand{\denseouterlist}[1]{
     \begin{itemize}[leftmargin=*,itemsep=0pt] #1 \end{itemize}}
 \newcommand{\innerlist}[1]{
-    \begin{itemize}[topsep=0pt,itemsep=0pt,parsep=0pt,partopsep=0pt,before=\vspace{-\smallskipamount}] #1 \end{itemize}}
+    \begin{itemize}[topsep=0pt,itemsep=0pt,parsep=0pt,partopsep=0pt] #1 \end{itemize}}
 \newcommand{\orderedouterlist}[1]{
     \begin{enumerate}[leftmargin=*] #1 \end{enumerate}}
 
@@ -127,7 +127,7 @@
 
 \newcommand{\entrybig}[5][]{\item[#1]
     \begin{tabularx}{0.97\textwidth}{@{}>{\raggedright\arraybackslash}X r@{}}
-    \parbox[t]{\linewidth}{#2} & #3 \\ {\small#4} & {\small #5} \\ \end{tabularx}}
+    \parbox[t]{\linewidth}{#2} & #3 \\ {\small#4} & {\small #5} \\ \end{tabularx}\vspace{-2pt}}
 
 % Fill year
 \newcommand{\fillyear}[1]{\phantom{#1}}
